@@ -14,6 +14,7 @@ const CourseInput = props => {
     setEnteredValue(event.target.value);
   };
 
+
   const formSubmitHandler = event => {
     event.preventDefault();
     if (enteredValue.trim().length === 0) {
